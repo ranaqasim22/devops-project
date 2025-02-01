@@ -45,8 +45,8 @@ nav ul li {
     padding: 10px;
 }
 
-/* Portfolio Gallery */
-.portfolio-gallery {
+/* Services Section */
+.services-container {
     max-width: 1000px;
     margin: 20px auto;
     display: grid;
@@ -55,7 +55,7 @@ nav ul li {
     padding: 20px;
 }
 
-.project {
+.service-box {
     background: white;
     padding: 15px;
     border-radius: 10px;
@@ -63,18 +63,19 @@ nav ul li {
     text-align: center;
 }
 
-.project img {
+.service-box img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.project h2 {
+.service-box h2 {
     margin-top: 10px;
     font-size: 1.4rem;
+    color: #0073e6;
 }
 
-.project p {
+.service-box p {
     font-size: 1rem;
     line-height: 1.6;
 }
